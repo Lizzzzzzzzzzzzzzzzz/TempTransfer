@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-    public void button_Click(View view){
+    public void send_button(View view){
         EditText  edtTemp = (EditText) findViewById(R.id.editTextNumber);
         TextView  txvShow = (TextView) findViewById(R.id.textView);
 
